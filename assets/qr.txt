@@ -1,0 +1,8 @@
+Alexei Bratuhin
+
+Testing stateful microservices with Database Rider
+
+- https://github.com/coiouhkc/short-and-sweet-database-rider-intro
+- https://github.com/database-rider/database-rider
+- https://github.com/database-rider/database-rider/blob/master/rider-examples/quarkus-dbunit-sample/src/test/java/com/github/quarkus/sample/QuarkusDBUnitTest.java
+- https://arquillian.org/arquillian-extension-persistence/

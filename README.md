@@ -6,7 +6,6 @@ theme: uncover
 paginate: true
 _paginate: false
 header: "**Alexei Bratuhin** Short and Sweet Intro to Database Rider"
-footer: ""
 markdown.marp.enableHtml : true
 html: true
 ---

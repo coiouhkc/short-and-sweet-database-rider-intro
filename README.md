@@ -6,7 +6,7 @@ theme: uncover
 paginate: true
 _paginate: false
 header: "**Alexei Bratuhin** Short and Sweet Intro to Database Rider"
-footer: "![openvalue height:32px](./assets/openvalue-text-color.png)"
+footer: ""
 markdown.marp.enableHtml : true
 html: true
 ---
@@ -156,6 +156,23 @@ Database Rider! (Knight's Tale, OST: We're the Champions by Queen)
 
 ```
 @ExpectedDataSet(value="expected.yml")
+```
+
+---
+
+# Dataset yarmor
+
+<!--
+Dataset to seed the tests
+
+-->
+
+```
+user:
+  - id: 1
+    name: "@realpestano"
+  - id: 2
+    name: "@dbunit"
 ```
 
 ---

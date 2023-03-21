@@ -5,7 +5,7 @@ description: Short and sweet intro to Database Rider
 theme: uncover
 paginate: true
 _paginate: false
-header: "**Alexei Bratuhin** Short and Sweet Intro to Database Rider"
+header: https://github.com/coiouhkc/short-and-sweet-database-rider-intro/
 markdown.marp.enableHtml : true
 html: true
 ---
@@ -18,35 +18,6 @@ Hello and welcome to yet another episode of short and sweet.
 Today we're going to talk about testing stateful microservices using Database Rider.
 
 OST: 'cause it's a bitter sweet symphony of testing.
--->
-
----
-# Alexei Bratuhin
-
-<table>
-  <tr>
-    <td style="width:70%; text-align:left;">
-    <a href="mailto:alexei.bratuhin@googlemail.com">E-Mail</a><br/>
-<a href="https://de.linkedin.com/in/alexei-bratuhin-21647811">LinkedIn</a><br/>
-<a href="https://www.xing.com/profile/Alexei_Bratuhin">Xing</a><br/>
-<a href="https://github.com/coiouhkc">GitHub</a>
-    </td>
-    <td style="width:30%">
-<img style="height: 256px" src="./assets/alexei-bratuhin.jpg" />
-    </td>
-  </tr>
-</table>
-
-<!--
-First a couple of facts about myself.
-
-I'm currently a senior software engineer at OpenValue.
-
-I started professional software development ~15 years ago.
-
-I mostly specialize in Java with focus on application design, development, operations and support in multiple domains. 
-
-I also like to contribute (back) to open-source whenever i can  - both in my private time and as part of my project work.
 -->
 
 ---
@@ -176,7 +147,7 @@ user:
 
 ---
 
-# Features yet to come...
+# More features ~~yet to come~~ ...
 
 <!--
 I've been using database rider in projects since 2020 and already had a chance to contribute to it.
@@ -191,6 +162,20 @@ feel free to give it implementation a try yourself!
 -->
 
 - SAT solver for expected data set, see https://github.com/database-rider/database-rider/issues/363
+
+---
+
+# Expect that !
+
+```
+USER:
+  - ID: $$x$$
+    NAME: "@realpestano"
+TWEET:
+  - ID: abcdef12345
+    CONTENT: "dbunit rules!"
+    USER_ID: $$x$$
+```
 
 ---
 
